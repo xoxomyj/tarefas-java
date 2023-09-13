@@ -1,5 +1,6 @@
 package br.senai.sp.jandira.model;
 
-public class Tarefas {
+
+public class EstadoTarefas {
 
 }
