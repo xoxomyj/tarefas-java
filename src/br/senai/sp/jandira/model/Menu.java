@@ -8,7 +8,6 @@ public class Menu {
     public void Menu() {
 
         boolean repetir = true;
-
         while (repetir){
 
             System.out.println("----------------------------");
@@ -17,6 +16,22 @@ public class Menu {
             System.out.println("01 - Criar Tarefas");
             System.out.println("02 - Listar Tarefas");
             System.out.println("03 - Editar Tarefas");
+            teclado.next();
+
+            int choice = teclado.nextInt();
+
+            switch (choice) {
+
+                case 1:
+                    CriarTarefas criarTarefas = new CriarTarefas();
+                    Tarefas tarefas = (Tarefas) criarTarefas.CriarTarefas();
+
+                case 2:
+
+                case 3:
+
+            }
+
 
 
         }
